@@ -59,3 +59,25 @@ a:hover{
   font-weight: bolder;
   font-size: medium;
 }
+
+
+ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+ul li{
+  padding-left: 20px;
+}
+li a{
+  color: rgb(1, 85, 1);
+  font-size: large;
+  font-weight: bold;
+}
+li a:hover{
+  background-image: linear-gradient(230deg,gray,yellow,green);
+  opacity: 0.5;
+  padding: 10px;
+  color: black;
+  border-radius: 50px 50px 0 0;
+}
